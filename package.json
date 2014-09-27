@@ -1,0 +1,34 @@
+{
+  "name": "bunyan-express-serializer",
+  "version": "1.0.0",
+  "description": "Bunyan serializer for Express objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parshap/bunyan-express-serializer.git"
+  },
+  "keywords": [
+    "bunyan",
+    "express",
+    "req",
+    "serializer",
+    "request",
+    "originalUrl"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/parshap/bunyan-express-serializer/issues"
+  },
+  "homepage": "https://github.com/parshap/bunyan-express-serializer",
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.0.0",
+    "shallow-copy": "0.0.1"
+  }
+}
